@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --color-bg: #dbacdb;
+
+  --color-black:  #3d3935;
+
+  --color-primary: #5953cc;
+  --color-primary-dark: #332e96;
+  --color-primary-light: #8983ff;
+
+  
+  --color-secondary: #ffcb88;
+  --color-secondary-dark: #ff7300;
+  --color-secondary-light: #ffdeb3;
+
+
+  --color-accent: #cbfff4;
+  --color-accent-dark: #62f0d1;
+  --color-accent-darker: #2fe6be;
+
+
+  --transition: all 400ms ease;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+
+body {
+  color: var(--color-primary);
+  background-color: var(--color-bg);
+  font-family: sans-serif;
+  background-image: url(./assets/crisp-paper-ruffles.png);
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+p {
+  color: var(--color-black);
+  font-size: 1.2rem;
 }

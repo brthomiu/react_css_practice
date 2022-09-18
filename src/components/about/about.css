@@ -1,0 +1,48 @@
+#about {
+    display: grid;
+    gap: 15%;
+    margin-bottom: 10%;
+}
+
+.about__box {
+    position: relative;
+    left: 30%;
+    padding: 1rem;
+    background-color: var(--color-secondary);
+    background-image: url(../../assets/sandpaper.png);
+    width: 40%;
+    height: fit-content;
+    border-radius: 2rem;
+    box-shadow: -3px 4px var(--color-black);
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    align-content: center;
+}
+
+.about__content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.about__content p {
+    margin-top: .6rem;
+    margin-bottom: .4rem;
+}
+
+.about__box-img {
+    padding: 1rem;
+    background-color: var(--color-secondary);
+    background-image: url(../../assets/sandpaper.png);
+    position: relative;
+    width: 30%;
+    height: fit-content;
+    left: 35%;
+    border-radius: 2rem;
+    box-shadow: -3px 4px var(--color-black);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content: center;
+}
